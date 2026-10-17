@@ -39,34 +39,34 @@ navLinks.forEach(function (link) {
 
 /* ================= COURSE AUTO FILL ================= */
 
-const courseLinks =
-    document.querySelectorAll(
-        ".course-enquiry"
-    );
+// const courseLinks =
+//     document.querySelectorAll(
+//         ".course-enquiry"
+//     );
 
 
-courseLinks.forEach(function (link) {
+// courseLinks.forEach(function (link) {
 
-    link.addEventListener("click", function () {
+//     link.addEventListener("click", function () {
 
-        const selectedCourse =
-            link.getAttribute("data-course");
-
-
-        const courseInput =
-            document.getElementById("course");
+//         const selectedCourse =
+//             link.getAttribute("data-course");
 
 
-        if (courseInput) {
+//         const courseInput =
+//             document.getElementById("course");
 
-            courseInput.value =
-                selectedCourse;
 
-        }
+//         if (courseInput) {
 
-    });
+//             courseInput.value =
+//                 selectedCourse;
 
-});
+//         }
+
+//     });
+
+// });
 
 
 
@@ -159,19 +159,19 @@ enquiryForm.addEventListener(
 
         /* WhatsApp URL */
 
-        const whatsappURL =
-            `https://wa.me/${phone}?text=${encodedMessage}`;
+        // const whatsappURL =
+        //     `https://wa.me/${phone}?text=${encodedMessage}`;
 
 
         /* Open WhatsApp */
 
-        window.open(
-            whatsappURL,
-            "_blank"
-        );
+//         window.open(
+//             whatsappURL,
+//             "_blank"
+//         );
 
-    }
-);
+//     }
+// );
 
 
 
